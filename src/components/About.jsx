@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
         <div className="inline-block">
-          <a  href='/CV.pdf' download='CV' className="bg-greenCustom-500 -text-greenCustom-500 px-6 py-3 text-white hover:bg-greenCustom-600 duration-300">
+          <a  href='/CV.pdf' download className="bg-greenCustom-500 -text-greenCustom-500 px-6 py-3 text-white hover:bg-greenCustom-600 duration-300">
             Download CV
           </a>
         </div>
