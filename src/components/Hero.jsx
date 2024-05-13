@@ -26,9 +26,9 @@ const Hero = () => {
           </div>
 
           <div className="inline-block">
-            <button className="bg-greenCustom-500 px-6 py-3 text-whiteMe hover:bg-greenCustom-600 duration-300">
+            <a href='#contacto' className="bg-greenCustom-500 px-6 py-3 text-whiteMe hover:bg-greenCustom-600 duration-300">
               Contáctame
-            </button>
+            </a>
           </div>
         </div>
 
