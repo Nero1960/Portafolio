@@ -9,7 +9,7 @@ function Skill({ name, percentage }) {
         <p className="text-grayCustom-500">{percentage}</p>
       </div>
       <div className="bg-darkCustom-500 w-full h-3">
-      <div className={`bg-greenCustom-500 w-${percentage} h-3`}></div>
+      <div className={`bg-greenCustom-500 w-[${percentage}] h-3`}></div>
 
       </div>
     </div>
