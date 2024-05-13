@@ -35,7 +35,7 @@ function Header  ({scrolly}) {
               }`}
           >
             <a href="/" className="text-white md:text-grayCustom-400 text-base md:hover:text-white duration-200">
-              Inicio
+              HOME
             </a>
             <a href="#about" className="text-white md:text-grayCustom-400 text-base md:hover:text-white duration-200">
               Sobre Mi
