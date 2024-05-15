@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import Ilustre from '../public/dev01.png';
+import Ilustre from '../public/imageGIF.gif';
 
 const About = () => {
 
@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <div id='about' className="flex flex-col md:flex-row md:gap-x-5 gap-y-10 md:gap-y-0">
-      <div className='mx-auto md:w-1/2'>
+      <div className='mx-auto md:w-[50%]'>
         <img
           className='block rounded-full h-60 w-60 mx-auto md:mx-0 object-cover md:h-[600px] md:w-full md:rounded-lg'
           src={Ilustre}
@@ -16,10 +16,10 @@ const About = () => {
         />
       </div>
 
-      <div className='space-y-8 flex flex-col justify-center md:w-1/2'>
+      <div className='space-y-8 flex flex-col justify-center md:w-[50%]'>
         <div className='flex flex-col space-y-5 border-b-[1px] border-grayCustom-500 pb-8'>
           <p className='text-greenCustom-500 font-black text-xl'>¿Quien Soy?</p>
-          <h2 className='text-3xl text-white font-bold leading-relaxed'>Soy Andy Mena, un desarrollador Web y diseñador UI</h2>
+          <h2 className='text-3xl text-white font-bold leading-relaxed'>Soy Andy Mena. Desarrollador Web y diseñador UI.</h2>
           <p className='text-grayCustom-500 text-sm leading-relaxed'>Un entusiasta desarrollador web estudiante de ingeniería informática. Mi fascinación por la tecnología me ha guiado hacia el emocionante mundo del desarrollo web, donde disfruto creando experiencias digitales. Mi enfoque se centra en la innovación y la creatividad para dar vida a proyectos únicos.</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-0 space-y-4 md:space-y-0'>

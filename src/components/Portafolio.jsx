@@ -43,7 +43,7 @@ const projects = [
     image: project05
   },
   {
-    title: "Reservas de Citas Barbería",
+    title: "Reservas de Citas Barbería (en desarrollo)",
     description: "El Proyecto más complejo en el que estoy trabajando, Contiene un inicio de sesión, ContextAPI, TypeScript, react-router-dom, react-hook-form, Mysql con Sequelize, Node JS, Express, JWT entre otras librerías.",
     githubLink: "https://github.com/Nero1960/App-Barberia",
     demoLink: "",
