@@ -12,16 +12,23 @@ import Footer from "./components/Footer";
 function App() {
   const [scrolly, setScrollY] = useState(0);
 
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollY(position);
+  };
+
   useEffect(() => {
-    const scrollDetect = debounce(() => {
-      setScrollY(window.scrollY);
-    }, 100); // Adjust the debounce delay as needed
-    window.addEventListener('scroll', scrollDetect);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    console.log(scrolly)
+
 
     return () => {
-      window.removeEventListener('scroll', scrollDetect);
+      window.removeEventListener('scroll', handleScroll);
     };
+
   }, []);
+
+
 
   return (
     <>

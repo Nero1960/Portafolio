@@ -6,6 +6,7 @@ import closeImg from '../public/XMark.svg';
 
 
 function Header  ({scrolly}) {
+  console.log(scrolly)
   const [showMenu, setShowMenu] = useState(false);
 
   const handleMenu = () => {
@@ -15,7 +16,7 @@ function Header  ({scrolly}) {
 
   return (
 
-      <header className={`${scrolly >= 550 ? 'bg-darkCustom-500 md:shadow-md' : 'bg-darkCustom-500 md:opacity-90'} w-full py-5 relative md:fixed`}>
+      <header className={`${scrolly >= 540 ? 'bg-blackCustom-600 opacity-90 md:shadow-md' : 'bg-darkCustom-500'} w-full py-5 relative md:fixed`}>
         <div className="mx-5 md:mx-20 flex justify-between items-center">
           <div className="logo flex items-center gap-5">
             <img src={headerLogo} alt="Logotipo" className="w-10" />
