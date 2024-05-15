@@ -19,8 +19,6 @@ function App() {
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll, { passive: true });
-    console.log(scrolly)
-
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
