@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import Iconos from './Iconos';
 
 const Hero = () => {
-  const typewriterWords = useMemo(() => ['Andy Mena', 'Desarrollador Web', 'UI Design'], []);
+  const typewriterWords = useMemo(() => ['Andy Mena', 'Desarrollador Web', 'Desarrollador Frontend'], []);
 
   return (
     <div className="bg-darkCustom-500 h-screen">
